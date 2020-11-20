@@ -1,0 +1,126 @@
+body
+{
+  background-color: Thistle;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+main h2
+{
+  background-color: Plum;
+  font-family: Tahoma;
+
+  text-align: center
+}
+main article, p
+{
+  font-family: Sylfaen;
+}
+
+main section
+{
+
+
+}
+
+section.proj
+{
+  text-indent: 15px;
+  /*background-color: LightCyan;*/
+  background-color:rgb(224, 243, 254);
+
+}
+section.proj h2
+{
+  padding-bottom: 10px;
+}
+section.proj a, p
+{
+  padding: 15px;
+}
+
+main li
+{
+  padding-inline-start: 25px;
+}
+
+header h1
+{
+  font-family: Monotype Corsiva;
+  background-color: Pink;
+  text-align: center;
+}
+ul.nav
+{
+    background-color: Khaki;
+
+    padding: 4px;
+}
+ul.nav li
+{
+  display: inline;
+
+  padding: 10px;
+}
+nav
+{
+  background-color: Khaki;
+}
+footer
+{
+  text-align: center;
+}
+
+footer h3, h4
+{
+  background-color: Orchid;
+}
+
+footer article, sup, q
+{
+  font-style: italic;
+}
+
+footer code
+{
+  background-color: Black;
+  color: White;
+  padding: 15px;
+}
+
+.clearfix
+{
+  clear: both;
+}
+
+.row_float
+{
+  height: 0,3em;
+}
+
+.column_float_1, .column_float_2
+{
+   width: 45%;
+   height: 100%;
+   float: left;
+
+}
+.column_float_1
+{
+  margin-right: 9%;
+}
+
+.column_flex
+{
+    width: 45%;
+}
+
+
+
+.row_flex{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     justify-content:space-between;
+
+ }
