@@ -10,17 +10,24 @@
 
     <header>
       <h1>Даниловский Вячеслав Сергеевич, студент-программист</h1>
+      <img id="image" width=200px class="av" src="1_galery.jpg" onClick="imgsrc();">
       <nav>
-        <div class="row_flex">
 
+      <div>
+        <button id="ShowPopUp">Контакты</button>
+      </div>
 
-
-          <div><a href="https://vk.com/unknowns41">ВК</a></div>
-          <div>Telegram: <code>@mrucher</code></div>
-          <div><a href="https://github.com/mrucher">GitHub</a></div>
-          <div><a href=<a href="mailto:sdanilovskiy@gmail.com">sdanilovskiy@gmail.com</a></div>
-
-        </div>
+      <div class="b-popup-container" id="popup-container">
+          <div class="b-popup" id="popup1">
+              <div class="content">
+                 <a class="contacts" href="https://vk.com/unknowns41"> <img src="vk-logo.png" alt="ВК" width="50"> </a>
+                 <a class="contacts" href="https://github.com/mrucher"> <img src="github-logo.webp" alt="GitHub" width="50"> </a>
+                 <button class="close" id="PopUpHide">
+                    Закрыть
+                 </button>
+              </div>
+          </div>
+      </div>
 
       </nav>
 

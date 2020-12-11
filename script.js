@@ -1,7 +1,24 @@
-function random(max) {
-  return Math.floor(Math.random() * Math.floor(max));
+document.getElementById("ShowPopUp").onclick = function (){
+    document.getElementById("popup-container").style.visibility = "visible";
 }
 
+document.getElementById("PopUpHide").onclick = function (){
+    document.getElementById("popup-container").style.visibility = "hidden";
+}
+
+var image=document.getElementById("image");
+var i=0;
+
+function imgsrc() {
+  i=i%3;
+  image.src=i%3+1+"_galery.jpg"
+  i++;
+
+}
+
+/*function random(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
 Array.min = function( array ){
     return Math.min.apply( Math, array );
 };
@@ -83,3 +100,4 @@ for(let i = 0; i < tags.length; i++) {
 }
 
 map.forEach(logMapElements);
+*/
